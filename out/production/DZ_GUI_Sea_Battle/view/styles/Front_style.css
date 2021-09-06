@@ -1,0 +1,37 @@
+#empty_button{
+    -fx-background-color: null;
+    -fx-border-color: black;
+    -fx-background-radius: 0;
+}
+
+#empty_button:hover{
+    -fx-background-color: rgba(143,133,133,0.4);
+}
+
+#empty_button:pressed{
+    -fx-background-color: rgba(84,78,78,0.8);
+}
+/*----------------*/
+#undamaged_button {
+    -fx-background-color: RED;
+    -fx-border-radius: 0;
+}
+
+#dead_button {
+    -fx-background-color: rgba(120,0,0,1);
+}
+/*----------------*/
+#ship_button {
+    -fx-background-color: rgba(121,119,135, 1);
+    -fx-background-radius: 0;
+}
+/*----------------*/
+#goto_menu_button {
+    -fx-background-color: null;
+    -fx-border-color: black;
+    -fx-background-radius: 0;
+}
+
+#goto_menu_button:pressed {
+    -fx-background-color: rgba(0,180,250,0.8);
+}

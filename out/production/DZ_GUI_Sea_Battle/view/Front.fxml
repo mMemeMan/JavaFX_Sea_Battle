@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" minHeight="500.0" minWidth="1100.0" prefHeight="500.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <AnchorPane fx:id="gamePane" prefHeight="500.0" prefWidth="1100.0" stylesheets="@styles/Front_style.css" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <GridPane fx:id="fieldPlayer" hgap="5.0" prefHeight="250.0" prefWidth="400.0" vgap="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="120.0">
+               <children>
+                  <Button fx:id="a_0_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_2" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_3" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_4" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_5" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_6" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_7" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_8" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_9" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_10" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_1_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_12" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_13" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_14" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_15" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_16" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_17" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_18" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_19" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_110" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_2_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_32" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_33" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_34" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_35" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_36" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_37" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_38" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_39" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_310" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_3_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_42" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_43" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_44" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_45" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_46" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_47" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_48" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_49" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_410" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_4_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_52" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_53" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_54" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_55" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_56" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_57" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_58" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_59" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_510" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_5_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_62" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_63" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_64" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_65" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_66" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_67" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_68" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_69" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_610" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_6_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_72" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_73" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_74" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_75" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_76" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_77" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_78" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_79" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_710" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_7_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_82" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_83" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_84" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_85" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_86" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_87" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_88" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_89" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_810" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_8_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_92" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_93" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_94" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_95" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_96" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_97" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_98" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_99" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_910" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="a_9_0" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_102" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_103" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_104" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_105" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_106" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_107" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_108" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_109" mnemonicParsing="false" onAction="#clickFieldPlayer" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1010" mnemonicParsing="false" onAction="#clickFieldPlayer" prefWidth="45.0" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane fx:id="fieldPlayer1" hgap="5.0" prefHeight="250.0" prefWidth="400.0" vgap="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="120.0">
+               <children>
+                  <Button fx:id="b_11" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_21" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_31" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_41" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_51" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_61" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_71" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_81" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_91" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_111" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_121" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_131" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_141" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_151" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_161" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_171" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_181" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_191" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_311" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_321" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_331" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_341" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_351" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_361" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_371" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_381" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_391" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_3101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_411" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_421" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_431" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_441" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_451" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_461" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_471" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_481" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_491" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_4101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_511" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_521" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_531" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_541" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_551" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_561" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_571" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_581" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_591" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_5101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_611" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_621" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_631" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_641" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_651" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_661" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_671" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_681" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_691" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_6101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_711" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_721" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_731" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_741" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_751" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_761" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_771" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_781" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_791" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_7101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_811" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_821" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_831" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_841" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_851" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_861" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_871" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_881" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_891" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_8101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_911" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_921" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_931" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_941" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_951" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_961" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_971" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_981" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_991" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_9101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1011" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1021" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1031" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1041" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1051" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1061" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1071" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1081" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_1091" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="b_10101" mnemonicParsing="false" onAction="#clickFieldPlayer1" prefWidth="45.0" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <Text fx:id="textPlayer" layoutX="187.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Игрок" textAlignment="CENTER" wrappingWidth="66.13671875" AnchorPane.leftAnchor="187.0" AnchorPane.topAnchor="56.41796875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="textPlayer1" layoutX="847.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бот" textAlignment="CENTER" wrappingWidth="66.13671875" AnchorPane.rightAnchor="186.86328125" AnchorPane.topAnchor="55.41796875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button id="goto_menu_button" layoutX="1014.0" layoutY="14.0" mnemonicParsing="false" onAction="#menuButton" prefHeight="41.0" prefWidth="66.0" stylesheets="@styles/Front_style.css" text="Меню">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="startPane" prefHeight="500.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button id="empty_button" fx:id="playWithBotButton" layoutX="361.0" layoutY="371.0" mnemonicParsing="false" onAction="#playWithBot" prefHeight="38.0" prefWidth="379.0" stylesheets="@styles/Front_style.css" text="Играть против бота" textAlignment="CENTER" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="360.0" AnchorPane.rightAnchor="360.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="empty_button" layoutX="361.0" layoutY="320.0" mnemonicParsing="false" onAction="#playPvP" prefHeight="38.0" prefWidth="379.0" stylesheets="@styles/Front_style.css" text="PvP" AnchorPane.bottomAnchor="139.0" AnchorPane.leftAnchor="360.0" AnchorPane.rightAnchor="360.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

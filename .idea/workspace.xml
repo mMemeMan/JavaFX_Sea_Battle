@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ab691be-06e4-44af-9a0e-8ea8a95af739" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="162" column="5" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+              <folding>
+                <element signature="method#playPvP#0;class#Controller#0" />
+                <element signature="method#playWithBot#0;class#Controller#0" />
+                <element signature="method#clickFieldPlayer1#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="method#startGameLooopPvP#0;class#Game#0" />
+                <element signature="class#ThreadGameLoopPvP#0;class#Game#0" />
+                <element signature="method#startGameLooopPvB#0;class#Game#0" />
+                <element signature="method#run#0;class#ThreadGameLoopPvB#0;class#Game#0" />
+                <element signature="method#makeStep#0;class#Game#0" />
+                <element signature="method#blockFields#0;class#Game#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/initialization/Initialization.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/logic/Main.java" />
+        <option value="$PROJECT_DIR$/src/logic/Game.java" />
+        <option value="$PROJECT_DIR$/src/field/Field.java" />
+        <option value="$PROJECT_DIR$/src/ships/Lincor.java" />
+        <option value="$PROJECT_DIR$/src/ships/Destroyer.java" />
+        <option value="$PROJECT_DIR$/src/ships/Cruiser.java" />
+        <option value="$PROJECT_DIR$/src/ships/Boat.java" />
+        <option value="$PROJECT_DIR$/src/field/Cell.java" />
+        <option value="$PROJECT_DIR$/src/ships/Ship.java" />
+        <option value="$PROJECT_DIR$/src/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/logic/ships/Cruiser.java" />
+        <option value="$PROJECT_DIR$/src/logic/ships/Destroyer.java" />
+        <option value="$PROJECT_DIR$/src/logic/ships/Lincor.java" />
+        <option value="$PROJECT_DIR$/src/logic/ships/Boat.java" />
+        <option value="$PROJECT_DIR$/src/logic/player/bot.java" />
+        <option value="$PROJECT_DIR$/src/logic/field/Standard.java" />
+        <option value="$PROJECT_DIR$/src/logic/player/Bot.java" />
+        <option value="$PROJECT_DIR$/src/logic/game/Main.java" />
+        <option value="$PROJECT_DIR$/src/texts/Main1.java" />
+        <option value="$PROJECT_DIR$/src/texts/Num.java" />
+        <option value="$PROJECT_DIR$/src/logic/field/Status.java" />
+        <option value="$PROJECT_DIR$/src/logic/field/Cell.java" />
+        <option value="$PROJECT_DIR$/src/logic/ships/Ship.java" />
+        <option value="$PROJECT_DIR$/src/logic/field/Field.java" />
+        <option value="$PROJECT_DIR$/src/view/Step.java" />
+        <option value="$PROJECT_DIR$/src/view/Win.java" />
+        <option value="$PROJECT_DIR$/src/view/Login.java" />
+        <option value="$PROJECT_DIR$/src/view/PrintField.java" />
+        <option value="$PROJECT_DIR$/src/logic/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/logic/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/initialization/Direction.java" />
+        <option value="$PROJECT_DIR$/src/view/front.fxml" />
+        <option value="$PROJECT_DIR$/src/view/Front2.fxml" />
+        <option value="$PROJECT_DIR$/src/model/field/Cell.java" />
+        <option value="$PROJECT_DIR$/src/view/Front.java" />
+        <option value="$PROJECT_DIR$/src/controller/GameType.java" />
+        <option value="$PROJECT_DIR$/src/styles/scene_style.css" />
+        <option value="$PROJECT_DIR$/src/model/field/Field.java" />
+        <option value="$PROJECT_DIR$/src/view/Front.fxml" />
+        <option value="$PROJECT_DIR$/src/model/ships/Ship.java" />
+        <option value="$PROJECT_DIR$/src/model/field/FieldManager.java" />
+        <option value="$PROJECT_DIR$/src/controller/DecorationController.java" />
+        <option value="$PROJECT_DIR$/src/view/styles/Front_style.css" />
+        <option value="$PROJECT_DIR$/src/model/game/Main.java" />
+        <option value="$PROJECT_DIR$/src/view/styles/a.html" />
+        <option value="$PROJECT_DIR$/src/model/field/Status.java" />
+        <option value="$PROJECT_DIR$/src/model/player/Bot.java" />
+        <option value="$PROJECT_DIR$/src/model/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/initialization/Initialization.java" />
+        <option value="$PROJECT_DIR$/src/model/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="initialization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="field" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="ships" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI_Sea_Battle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="initialization" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="field" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="game" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="player" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="view" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GUI_Sea_Battle" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Sea_Battle" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="view" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="styles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601210503243" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artur\IdeaProjects\GUI_Sea_Battle\src\styles" />
+      <recent name="C:\Users\artur\IdeaProjects\GUI_Sea_Battle\src\view" />
+      <recent name="C:\Users\artur\IdeaProjects\GUI_Sea_Battle\src\resources" />
+      <recent name="C:\Users\artur\IdeaProjects\GUI_Sea_Battle\src\model\game" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.game.Main" />
+      <module name="Sea_Battle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Sea_Battle" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="texts.Main1" />
+      <module name="Sea_Battle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="texts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.game.Main" />
+      <module name="Sea_Battle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ab691be-06e4-44af-9a0e-8ea8a95af739" name="Default Changelist" comment="" />
+      <created>1593530308389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593530308389</updated>
+      <workItem from="1593530311276" duration="1736000" />
+      <workItem from="1593537899615" duration="1045000" />
+      <workItem from="1593541529449" duration="788000" />
+      <workItem from="1593543884426" duration="833000" />
+      <workItem from="1593545810881" duration="1789000" />
+      <workItem from="1593547628750" duration="1315000" />
+      <workItem from="1593594249155" duration="2089000" />
+      <workItem from="1593597913896" duration="1795000" />
+      <workItem from="1593599732080" duration="1788000" />
+      <workItem from="1593601546000" duration="1791000" />
+      <workItem from="1593603357698" duration="1831000" />
+      <workItem from="1593605212809" duration="1148000" />
+      <workItem from="1593610468445" duration="1812000" />
+      <workItem from="1593612873740" duration="1200000" />
+      <workItem from="1593614873007" duration="1788000" />
+      <workItem from="1593616682734" duration="2175000" />
+      <workItem from="1593620690853" duration="1021000" />
+      <workItem from="1593681959585" duration="1478000" />
+      <workItem from="1593686500447" duration="1772000" />
+      <workItem from="1593688311767" duration="1789000" />
+      <workItem from="1593690124957" duration="872000" />
+      <workItem from="1593691879648" duration="1788000" />
+      <workItem from="1593693693373" duration="1788000" />
+      <workItem from="1593695504477" duration="1789000" />
+      <workItem from="1593697325861" duration="579000" />
+      <workItem from="1593698330554" duration="599000" />
+      <workItem from="1593770470495" duration="1777000" />
+      <workItem from="1593772276955" duration="1737000" />
+      <workItem from="1594020254556" duration="1774000" />
+      <workItem from="1594022050984" duration="567000" />
+      <workItem from="1594050540081" duration="910000" />
+      <workItem from="1594052870770" duration="1827000" />
+      <workItem from="1594122872954" duration="1366000" />
+      <workItem from="1594124674041" duration="1791000" />
+      <workItem from="1594126504580" duration="1578000" />
+      <workItem from="1594128314118" duration="1790000" />
+      <workItem from="1594130128405" duration="1787000" />
+      <workItem from="1594131940077" duration="1693000" />
+      <workItem from="1594135646659" duration="1787000" />
+      <workItem from="1594137455000" duration="1090000" />
+      <workItem from="1594141545114" duration="1955000" />
+      <workItem from="1594143534374" duration="1084000" />
+      <workItem from="1594149383200" duration="2000000" />
+      <workItem from="1594151404036" duration="1661000" />
+      <workItem from="1594153219859" duration="388000" />
+      <workItem from="1594191513080" duration="2233000" />
+      <workItem from="1594198261789" duration="1216000" />
+      <workItem from="1594202070306" duration="926000" />
+      <workItem from="1594204166218" duration="1787000" />
+      <workItem from="1594205977661" duration="1904000" />
+      <workItem from="1594207919650" duration="501000" />
+      <workItem from="1594208742662" duration="1237000" />
+      <workItem from="1594212406020" duration="1780000" />
+      <workItem from="1594214213061" duration="510000" />
+      <workItem from="1594218608609" duration="1783000" />
+      <workItem from="1594220413008" duration="190000" />
+      <workItem from="1594220623780" duration="1395000" />
+      <workItem from="1594227302531" duration="1788000" />
+      <workItem from="1594229163620" duration="1791000" />
+      <workItem from="1594230980702" duration="1070000" />
+      <workItem from="1594233659686" duration="1790000" />
+      <workItem from="1594235479430" duration="1594000" />
+      <workItem from="1594285503520" duration="1943000" />
+      <workItem from="1594287516785" duration="2327000" />
+      <workItem from="1594289896895" duration="2328000" />
+      <workItem from="1594293781480" duration="1788000" />
+      <workItem from="1594295595351" duration="1320000" />
+      <workItem from="1594297636072" duration="8000" />
+      <workItem from="1594297770307" duration="1285000" />
+      <workItem from="1594396029115" duration="40000" />
+      <workItem from="1594738474018" duration="690000" />
+      <workItem from="1594739249305" duration="1788000" />
+      <workItem from="1594741059360" duration="755000" />
+      <workItem from="1594744964734" duration="1501000" />
+      <workItem from="1594750394078" duration="2355000" />
+      <workItem from="1594806829506" duration="825000" />
+      <workItem from="1594823107481" duration="759000" />
+      <workItem from="1594830091086" duration="1948000" />
+      <workItem from="1594837071670" duration="1781000" />
+      <workItem from="1594884170247" duration="136000" />
+      <workItem from="1595533153956" duration="80000" />
+      <workItem from="1597323133997" duration="339000" />
+      <workItem from="1597323588374" duration="1410000" />
+      <workItem from="1597325730222" duration="611000" />
+      <workItem from="1597404768508" duration="1072000" />
+      <workItem from="1597406619799" duration="1496000" />
+      <workItem from="1597408437282" duration="818000" />
+      <workItem from="1597411091003" duration="1633000" />
+      <workItem from="1597416080605" duration="1454000" />
+      <workItem from="1597472208042" duration="1790000" />
+      <workItem from="1597474034149" duration="1111000" />
+      <workItem from="1597651280195" duration="957000" />
+      <workItem from="1597654229009" duration="839000" />
+      <workItem from="1597656040599" duration="1786000" />
+      <workItem from="1597657853698" duration="664000" />
+      <workItem from="1597661398971" duration="944000" />
+      <workItem from="1597664175423" duration="134000" />
+      <workItem from="1597680258428" duration="134000" />
+      <workItem from="1597681102985" duration="578000" />
+      <workItem from="1597755795835" duration="994000" />
+      <workItem from="1597756985137" duration="1742000" />
+      <workItem from="1597758794640" duration="1655000" />
+      <workItem from="1597760602712" duration="1012000" />
+      <workItem from="1597828275916" duration="1471000" />
+      <workItem from="1597831568260" duration="1736000" />
+      <workItem from="1597839087245" duration="36000" />
+      <workItem from="1597852227654" duration="1399000" />
+      <workItem from="1597857034873" duration="598000" />
+      <workItem from="1597858837430" duration="273000" />
+      <workItem from="1597859130438" duration="674000" />
+      <workItem from="1597863746335" duration="602000" />
+      <workItem from="1597917571086" duration="1682000" />
+      <workItem from="1597921869792" duration="599000" />
+      <workItem from="1597925252501" duration="599000" />
+      <workItem from="1597927226822" duration="1785000" />
+      <workItem from="1597929042248" duration="1118000" />
+      <workItem from="1597930852902" duration="2045000" />
+      <workItem from="1597932958173" duration="1767000" />
+      <workItem from="1597934837785" duration="1953000" />
+      <workItem from="1597937712649" duration="599000" />
+      <workItem from="1597939528853" duration="1376000" />
+      <workItem from="1597942891525" duration="599000" />
+      <workItem from="1597945274942" duration="1298000" />
+      <workItem from="1597948423782" duration="1205000" />
+      <workItem from="1597950326004" duration="541000" />
+      <workItem from="1598000511017" duration="599000" />
+      <workItem from="1598002602993" duration="722000" />
+      <workItem from="1598004624844" duration="1009000" />
+      <workItem from="1598014609616" duration="1257000" />
+      <workItem from="1598016449162" duration="1777000" />
+      <workItem from="1598018267433" duration="1776000" />
+      <workItem from="1598020084188" duration="1812000" />
+      <workItem from="1598021925027" duration="1725000" />
+      <workItem from="1598028900859" duration="1724000" />
+      <workItem from="1598343254409" duration="1638000" />
+      <workItem from="1598345074086" duration="1773000" />
+      <workItem from="1598346877673" duration="1785000" />
+      <workItem from="1598349299952" duration="1773000" />
+      <workItem from="1598351100848" duration="1787000" />
+      <workItem from="1598352917102" duration="1756000" />
+      <workItem from="1598354835507" duration="1783000" />
+      <workItem from="1598356643329" duration="1523000" />
+      <workItem from="1598358457757" duration="740000" />
+      <workItem from="1598434067220" duration="1325000" />
+      <workItem from="1598435439976" duration="1929000" />
+      <workItem from="1598438142012" duration="1782000" />
+      <workItem from="1598439969325" duration="1155000" />
+      <workItem from="1598449795908" duration="1005000" />
+      <workItem from="1598465758890" duration="1219000" />
+      <workItem from="1598540680732" duration="2136000" />
+      <workItem from="1598546251083" duration="1812000" />
+      <workItem from="1598548102195" duration="1770000" />
+      <workItem from="1598549910266" duration="1202000" />
+      <workItem from="1598601877386" duration="1182000" />
+      <workItem from="1598617433587" duration="1775000" />
+      <workItem from="1598619244345" duration="1594000" />
+      <workItem from="1598621995773" duration="1774000" />
+      <workItem from="1598623809427" duration="2170000" />
+      <workItem from="1598690838229" duration="628000" />
+      <workItem from="1598693507796" duration="15225000" />
+      <workItem from="1598714749463" duration="14460000" />
+      <workItem from="1598793881032" duration="594000" />
+      <workItem from="1598798937654" duration="1783000" />
+      <workItem from="1598800778167" duration="416000" />
+      <workItem from="1598863766014" duration="1758000" />
+      <workItem from="1598865566827" duration="1487000" />
+      <workItem from="1598867606355" duration="594000" />
+      <workItem from="1598870327626" duration="828000" />
+      <workItem from="1598873153094" duration="1774000" />
+      <workItem from="1598874967300" duration="1131000" />
+      <workItem from="1598934194658" duration="1779000" />
+      <workItem from="1599075415088" duration="455000" />
+      <workItem from="1599151910542" duration="89000" />
+      <workItem from="1599152523985" duration="1152000" />
+      <workItem from="1599153728462" duration="593000" />
+      <workItem from="1599157243502" duration="594000" />
+      <workItem from="1599159056798" duration="594000" />
+      <workItem from="1599160866794" duration="594000" />
+      <workItem from="1599162994464" duration="594000" />
+      <workItem from="1599165363894" duration="595000" />
+      <workItem from="1599397739196" duration="286000" />
+      <workItem from="1599928177563" duration="626000" />
+      <workItem from="1599975681065" duration="1760000" />
+      <workItem from="1599977479228" duration="694000" />
+      <workItem from="1599980659604" duration="1001000" />
+      <workItem from="1599982742829" duration="12000" />
+      <workItem from="1599983622374" duration="901000" />
+      <workItem from="1599984549797" duration="683000" />
+      <workItem from="1601199167630" duration="962000" />
+      <workItem from="1601202734774" duration="1767000" />
+      <workItem from="1601204549845" duration="2192000" />
+      <workItem from="1601206956673" duration="1770000" />
+      <workItem from="1601208768238" duration="1769000" />
+      <workItem from="1601210584363" duration="1772000" />
+      <workItem from="1601212395681" duration="1771000" />
+      <workItem from="1601445704363" duration="55000" />
+      <workItem from="1601826308182" duration="1496000" />
+      <workItem from="1601828109245" duration="1773000" />
+      <workItem from="1601829923064" duration="630000" />
+      <workItem from="1630942389802" duration="682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="282348000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.032502707" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49093816" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49200428" weight="0.22318527" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4946695" weight="0.032502707" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="pane" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/shape/Line.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/layout/Region.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/Front2.fxml" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/javafx/event/EventUtil.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/control/Labeled.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/event/EventType.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/red cross.png" />
+    <entry file="file://$PROJECT_DIR$/src/resources/water.gif" />
+    <entry file="file://$PROJECT_DIR$/src/model/ships/Lincor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/scene/control/Labeled.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/beans/binding/StringExpression.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/beans/property/ReadOnlyStringProperty.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/beans/property/StringProperty.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/scene/text/Font.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/beans/property/StringPropertyBase.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/beans/value/WritableObjectValue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/scene/text/Text.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/scene/control/Button.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/scene/Node.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/event/Event.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_261/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/initialization/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ships/Destroyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ships/Boat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ships/Cruiser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/field/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/layout/Pane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#3912#3913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/layout/AnchorPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+          <folding>
+            <element signature="e#9238#9239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="3770" selection-start-line="3770" selection-end-line="3770" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/beans/property/BooleanPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/field/FieldManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ships/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/DecorationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="6708" selection-start-line="6708" selection-end-line="6708" />
+          <folding>
+            <element signature="e#64351#64352#0" expanded="true" />
+            <element signature="e#64395#64396#0" expanded="true" />
+            <element signature="e#65270#65271#0" expanded="true" />
+            <element signature="e#65330#65331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/styles/a.html" />
+    <entry file="file://$PROJECT_DIR$/src/model/game/GameType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/game/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/field/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/styles/Front_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Front.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18224">
+          <caret line="1072" column="18" selection-start-line="1072" selection-start-column="18" selection-end-line="1072" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/field/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/initialization/Initialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/player/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Bot#0;class#Bot#0" />
+            <element signature="method#Bot#1;class#Bot#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="162" column="5" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+          <folding>
+            <element signature="method#playPvP#0;class#Controller#0" />
+            <element signature="method#playWithBot#0;class#Controller#0" />
+            <element signature="method#clickFieldPlayer1#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="method#startGameLooopPvP#0;class#Game#0" />
+            <element signature="class#ThreadGameLoopPvP#0;class#Game#0" />
+            <element signature="method#startGameLooopPvB#0;class#Game#0" />
+            <element signature="method#run#0;class#ThreadGameLoopPvB#0;class#Game#0" />
+            <element signature="method#makeStep#0;class#Game#0" />
+            <element signature="method#blockFields#0;class#Game#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
